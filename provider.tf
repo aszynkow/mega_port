@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "megaport" {
-    username                = "adam.szynkowski@oracle.com"
-    password                = ""
+    username                = var.user
+    password                = var.password
     mfa_otp_key             = ""
     accept_purchase_terms   = true
     delete_ports            = true
