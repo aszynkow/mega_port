@@ -10,7 +10,7 @@ terraform {
 provider "megaport" {
     username                = var.user
     password                = var.password
-    mfa_otp_key             = ""
+    mfa_otp_key             = var.mfa_key
     accept_purchase_terms   = true
     delete_ports            = true
     environment             = "staging"

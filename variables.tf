@@ -7,3 +7,8 @@ variable "password" {
   type        = string
   description = "password"
 }
+
+variable "mfa_key" {
+  type        = string
+  description = "MFA"
+}
